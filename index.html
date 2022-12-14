@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Backen Birgisch</title>
+</head>
+<body>
+    <header>
+        <h1>Backen in Birgisch</h1>        
+    </header>
+    <main class="container">
+        <div class="backen">
+            <div class="rowBacken">
+                <h2>Bestellungen</h2>
+                <input type="text" name="riejen" id="riejen">
+                <label for="riejen">Riejen</label>
+                <input type="text" name="roggen" id="roggen">
+                <label for="roggen">Roggen</label>
+            </div>
+            <div class="rowBacken">
+                <h2>Anzahl Backungen</h2>    
+                <div class="beschreibung">
+                    <span>Anzahl Roggen:</span>
+                    <input type="text" id="mengeRoggenProBackung" name="mengeRoggenProBackung>
+                    <span id="anzahlRoggen">70</span>
+                    <span id="totalBackenRoggen">3</span>
+                </div>
+                <div class="beschreibung">
+                    <span>Anzahl Riejen</span>
+                    <input type="text" id="mengeRiejenProBackung" name="mengeRiejenProBackung>
+                    <span id="anzahlRiejen">25</span>
+                    <span id="totalBackenRiejen">5</span>
+                </div>
+            </div>            
+        </div>        
+        <div class="rezepte">
+            <div class="roggen">
+                <div class="grundmenge">
+                    <div class="row">
+                        <div class="menge">1200</div>
+                        <div class="art">g</div>
+                        <div class="text">Mehl</div>
+                        <class class="total" id="roggenMehl"></class>
+                    </div>
+                    <div class="row">
+                        <div class="menge">60</div>
+                        <div class="art">g</div>
+                        <div class="text">Salz</div>
+                        <div class="total" id="roggenSalz"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="riejen">
+                <div class="grundmenge">
+                    <div class="row">
+                        <div class="menge">12</div>
+                        <div class="art">kg</div>
+                        <div class="text">Mehl</div>
+                        <class class="total" id="riejenMehl">48</class>
+                    </div>
+                    <div class="row">
+                        <div class="menge">300</div>
+                        <div class="art">g</div>
+                        <div class="text">Salz</div>
+                        <div class="total" id="riejenSalz">1200</div>
+                    </div>
+                    <div class="row">
+                        <div class="menge">700</div>
+                        <div class="art">g</div>
+                        <div class="text">Zucker</div>
+                        <div class="total" id="riejenZucker">2800</div>
+                    </div>
+                    <div class="row">
+                        <div class="menge">12</div>
+                        <div class="art">l</div>
+                        <div class="text">Milch</div>
+                        <div class="total" id="riejenMilch">48</div>
+                    </div>
+                    <div class="row">
+                        <div class="menge">1200</div>
+                        <div class="art">g</div>
+                        <div class="text">Butter</div>
+                        <div class="total" id="riejenButter">7000</div>
+                    </div>
+                    <div class="row">
+                        <div class="menge">30</div>
+                        <div class="art">Stück</div>
+                        <div class="text">Eier</div>
+                        <div class="total" id="riejenEier">120</div>
+                    </div>
+                    <div class="row">
+                        <div class="menge">80</div>
+                        <div class="art">g</div>
+                        <div class="text">Hefe</div>
+                        <div class="total" id="riejenHefe">5000</div>
+                    </div>
+                    <div class="row">
+                        <div class="menge">60</div>
+                        <div class="art">Stück</div>
+                        <div class="text">Zitrone</div>
+                        <div class="total" id="riejenZitrone">1</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="author">
+            <span>Author:</span>
+            <span>Lothar Schmid</span>
+            <span>web(ät)jagolo.ch</span>
+        </div>
+        <div class=""copyright>
+            &copy; 14.12.2022
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
