@@ -1,0 +1,14 @@
+{
+    "price": 5,
+    "description": "Weisses Zopfbrot. Wird rund ausgewirkt und mit Ei bestrichen",
+    "rezept": [
+        {"incredient": "Mehl", "quantity": 12, "unit":"kg"},
+        {"incredient": "Milch", "quantity": 6, "unit":"l"},
+        {"incredient": "Salz", "quantity": 300, "unit":"g"},
+        {"incredient": "Zucker", "quantity": 800, "unit":"g"},
+        {"incredient": "Butter", "quantity": 1200, "unit":"g"},
+        {"incredient": "Eier", "quantity": 30, "unit":"St"},
+        {"incredient": "Hefe", "quantity": 80, "unit":"g"},
+        {"incredient": "Zitrone", "quantity": 1, "unit":"St"}
+    ]
+}
