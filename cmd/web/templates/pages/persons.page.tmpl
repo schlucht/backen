@@ -1,0 +1,15 @@
+{{template "base" .}}
+
+{{ define "title" }}
+Personen
+{{ end }}
+
+{{ define "content" }}
+<h2 class="mt-5">Personen Liste</h2>
+<hr>
+<ul>
+    {{range index .Data "persons" }}
+    <li>{{ .ID }}: {{ .FirstName }} {{ .LastName }}</li>
+    {{ end }}
+</ul>
+{{ end }}
